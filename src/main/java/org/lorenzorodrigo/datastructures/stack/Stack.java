@@ -43,11 +43,8 @@ public class Stack<T> {
      * @return boolean return
      */
     public int push(T element) {
-        if (this.elements.add(element)) {
-            this.size++;
-            return this.size;
-        } else {
-            return -1;
-        }
+        this.elements.add(element);
+        this.size++;
+        return this.size;
     }
 }

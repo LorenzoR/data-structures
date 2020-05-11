@@ -39,4 +39,14 @@ class StackTest {
 
         assertEquals(element, stack.pop(), "Pop works");
     }
+
+    /**
+     * Test pop no elements.
+     */
+    @Test
+    void testPopNoElements() {
+        Stack<Integer> stack = new Stack<>();
+
+        assertEquals(null, stack.pop(), "Pop works");
+    }
 }

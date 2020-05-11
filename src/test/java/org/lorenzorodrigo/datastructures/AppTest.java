@@ -13,6 +13,8 @@ class AppTest {
      */
     @Test
     void testApp() {
+        String[] args = {"test"};
+        App.main(args);
         assertEquals(1, 1);
     }
 }

@@ -20,7 +20,7 @@ class QueueTest {
     }
 
     /**
-     * Test push.
+     * Test queue.
      */
     @Test
     void testEnqueue() {
@@ -29,7 +29,7 @@ class QueueTest {
     }
 
     /**
-     * Test pop.
+     * Test dequeue.
      */
     @Test
     void testDequeue() {
@@ -38,5 +38,15 @@ class QueueTest {
         queue.enqueue(element);
 
         assertEquals(element, queue.dequeue(), "Dequeue works");
+    }
+
+    /**
+     * Test dequeue no elements.
+     */
+    @Test
+    void testDequeueNoElements() {
+        Queue<Integer> queue = new Queue<>();
+
+        assertEquals(null, queue.dequeue(), "Dequeue works");
     }
 }
