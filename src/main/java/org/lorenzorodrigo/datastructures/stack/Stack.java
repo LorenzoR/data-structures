@@ -4,9 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * My <b>class</b>.
+ * <b>Stack</b>.
  *
- * @see Annotation
  * @param <T> This describes my type parameter
  */
 public class Stack<T> {
@@ -19,7 +18,7 @@ public class Stack<T> {
     }
 
     /**
-     * My <b>class</b>.
+     * Pop element from stack.
      *
      */
     public T pop() {
@@ -38,7 +37,7 @@ public class Stack<T> {
     }
 
     /**
-     * My <b>class</b>.
+     * Push element from stack.
      *
      * @param element
      * @return boolean return
