@@ -1,2 +1,2 @@
 # data-structures
-Data structures practic
+Data structures practice
